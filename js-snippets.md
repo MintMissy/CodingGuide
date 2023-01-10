@@ -4,47 +4,66 @@ https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets
 
 ## Import and Export
 
-`imd` → **destructured import**
-
 ```JavaScript
+// imd → destructured import
 import {  } from 'module';
+
+// env → exports variable
+export const exportVariable = localVariable
 ```
 
-`env` → **exported variable** ```export const exportVariable = localVariable'```
-
 ## Classes
-`ecl` →	exports default **base class** `export default class className {};`
 
-`ece` →	exports default **child class** `export default class className extends baseclassName {};`
+```JavaScript
+// ecl → exports default class
+export default class className {};
 
-## Class Helpers
+// ece → exports default extended class
+export default class className extends baseclassName {};
 
-`con` →	**constructor** `constructor() {}`
+// con → constructor
+constructor() {}
 
-`met` →	**method** `methodName(params) {}`
+// met → method
+methodName(params) {}
 
-`pge` →	**getter** `get propertyName() {return this.;}`
+// pge → getter
+get propertyName() { return this. ; }
 
-`pse` →	**setter** `set propertyName(value) {;}`
+// pse → setter
+set propertyName(value) {}
+```
 
 ## Loops
-`fre` →	**forEach** loop `array.forEach(currentItem => {});`
 
-`fof` →	**for of** loop `for (const item of object) {}`
+```JavaScript
+// fre → forEach loop
+array.forEach(currentItem => {});
 
-`fin` →	**for in** `for (const item in object) {}`
+// fof → for of loop
+for (const item of object) {}
+
+// fin → for in
+for (const item in object) {}
+```
 
 ## Functions
+```JavaScript
+// anfn → arrow
+function (params) => {}
 
-`anfn` → **arrow function** `(params) => {}`
+// nfn → named function
+const name = (params) => {}
 
-`nfn` →	**named function** `const name = (params) => {}`
-
-`enf` →	exported **name function** `export const functionName = (params) => {};`
-
+// enf → exported name function
+export const functionName = (params) => {};`
+```
 ## Destructing
 
-`dob` →	destructing **object** `const {propertyName} = objectToDestruct;`
+```JavaScript
+// dob → destructing object
+const {propertyName} = objectToDestruct;
 
-`dar` →	destructing **array** `const [propertyName] = arrayToDestruct;`
-````
+// dar → destructing array
+const [propertyName] = arrayToDestruct;
+```
