@@ -4,9 +4,13 @@ https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets
 
 ## Import and Export
 
-`imd` → **destructured import** `import {  } from 'module';`
+`imd` → **destructured import**
 
-`env` → **exported variable** `export const exportVariable = localVariable'`
+```JavaScript
+import {  } from 'module';
+```
+
+`env` → **exported variable** ```export const exportVariable = localVariable'```
 
 ## Classes
 `ecl` →	exports default **base class** `export default class className {};`
@@ -43,3 +47,4 @@ https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets
 `dob` →	destructing **object** `const {propertyName} = objectToDestruct;`
 
 `dar` →	destructing **array** `const [propertyName] = arrayToDestruct;`
+````
