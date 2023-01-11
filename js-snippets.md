@@ -1,6 +1,6 @@
 # Javascript Snippets
 
-JS6 Snippets showed in practice. [Extension](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)
+JavaScript snippets in practice. Snippets come from this [extension](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)
 
 ## Import and Export
 
