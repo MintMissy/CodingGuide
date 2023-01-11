@@ -57,10 +57,10 @@ text-decoration: line-through; // tdl
 ## White Space
 
 ```scss
-wb	word-break : break-all;
-ww	word-wrap : break-word;
+word-break : break-all; // wb
+word-wrap : break-word; // ww
 
-ws	white-space : nowrap;
-wsn	white-space : nowrap;
-wsp	white-space : pre;
+white-space : nowrap; // ws
+white-space : nowrap; // wsn
+white-space : pre; // wsp
 ```
