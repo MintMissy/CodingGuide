@@ -1,6 +1,6 @@
 # Javascript Snippets
 
-https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets
+JS6 Snippets showed in practice. [Extension](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)
 
 ## Import and Export
 
@@ -48,6 +48,7 @@ for (const item in object) {}
 ```
 
 ## Functions
+
 ```JavaScript
 // anfn → arrow
 function (params) => {}
@@ -58,6 +59,7 @@ const name = (params) => {}
 // enf → exported name function
 export const functionName = (params) => {};`
 ```
+
 ## Destructing
 
 ```JavaScript
