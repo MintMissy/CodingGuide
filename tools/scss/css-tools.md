@@ -10,3 +10,6 @@ These tools speed up the development process
 - [SVG Wave Generator](https://getwaves.io/)
 - [CSS Filter Tool](https://www.cssfilters.co/)
 - [Web Code Tools - Various Tools](https://webcode.tools/)
+
+## Inspiration
+- https://freefrontend.com/css-cards/
